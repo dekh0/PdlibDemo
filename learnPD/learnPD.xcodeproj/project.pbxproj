@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B99BF424826EBF00EDFE5C /* main.pd in Resources */ = {isa = PBXBuildFile; fileRef = D0B99BF324826EBF00EDFE5C /* main.pd */; };
+		D0B99BF7248271AE00EDFE5C /* PDPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B99BF6248271AE00EDFE5C /* PDPatch.m */; };
+		D0DA9A66248254F200F34183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA9A65248254F200F34183 /* AppDelegate.swift */; };
+		D0DA9A68248254F200F34183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA9A67248254F200F34183 /* ViewController.swift */; };
+		D0DA9A6B248254F200F34183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DA9A69248254F200F34183 /* Main.storyboard */; };
+		D0DA9A6D248254F400F34183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DA9A6C248254F400F34183 /* Assets.xcassets */; };
+		D0DA9A70248254F400F34183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DA9A6E248254F400F34183 /* LaunchScreen.storyboard */; };
+		D0DA9A892482556F00F34183 /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DA9A7F2482550C00F34183 /* libpd-ios.a */; };
+		D0DA9A8C2482558F00F34183 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DA9A8A2482558F00F34183 /* AVFoundation.framework */; };
+		D0DA9A8D2482558F00F34183 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DA9A8B2482558F00F34183 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0DA9A7E2482550C00F34183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DA9A772482550B00F34183 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		D0DA9A802482550C00F34183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DA9A772482550B00F34183 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 119013AB1486450C00086F19;
+			remoteInfo = "libpd-osx";
+		};
+		D0DA9A822482550C00F34183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DA9A772482550B00F34183 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 30C3D36D1FAA200100C67F08;
+			remoteInfo = "libpd-ios-multi";
+		};
+		D0DA9A842482550C00F34183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DA9A772482550B00F34183 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 30C3D2FA1FAA1FCC00C67F08;
+			remoteInfo = "libpd-osx-multi";
+		};
+		D0DA9A862482554A00F34183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DA9A772482550B00F34183 /* libpd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0B99BF324826EBF00EDFE5C /* main.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.pd; path = ../../main.pd; sourceTree = "<group>"; };
+		D0B99BF5248271AE00EDFE5C /* PDPatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDPatch.h; sourceTree = "<group>"; };
+		D0B99BF6248271AE00EDFE5C /* PDPatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDPatch.m; sourceTree = "<group>"; };
+		D0DA9A62248254F100F34183 /* learnPD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnPD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DA9A65248254F200F34183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0DA9A67248254F200F34183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0DA9A6A248254F200F34183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0DA9A6C248254F400F34183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0DA9A6F248254F400F34183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0DA9A71248254F400F34183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DA9A772482550B00F34183 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "../pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
+		D0DA9A8A2482558F00F34183 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D0DA9A8B2482558F00F34183 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D0DA9A8F24825F9A00F34183 /* learnPD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "learnPD-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DA9A5F248254F100F34183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DA9A8C2482558F00F34183 /* AVFoundation.framework in Frameworks */,
+				D0DA9A8D2482558F00F34183 /* AudioToolbox.framework in Frameworks */,
+				D0DA9A892482556F00F34183 /* libpd-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0DA9A59248254F100F34183 = {
+			isa = PBXGroup;
+			children = (
+				D0DA9A772482550B00F34183 /* libpd.xcodeproj */,
+				D0DA9A64248254F100F34183 /* learnPD */,
+				D0DA9A63248254F100F34183 /* Products */,
+				D0DA9A882482556F00F34183 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DA9A63248254F100F34183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DA9A62248254F100F34183 /* learnPD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DA9A64248254F100F34183 /* learnPD */ = {
+			isa = PBXGroup;
+			children = (
+				D0B99BF324826EBF00EDFE5C /* main.pd */,
+				D0DA9A65248254F200F34183 /* AppDelegate.swift */,
+				D0B99BF5248271AE00EDFE5C /* PDPatch.h */,
+				D0B99BF6248271AE00EDFE5C /* PDPatch.m */,
+				D0DA9A67248254F200F34183 /* ViewController.swift */,
+				D0DA9A69248254F200F34183 /* Main.storyboard */,
+				D0DA9A6C248254F400F34183 /* Assets.xcassets */,
+				D0DA9A6E248254F400F34183 /* LaunchScreen.storyboard */,
+				D0DA9A71248254F400F34183 /* Info.plist */,
+				D0DA9A8F24825F9A00F34183 /* learnPD-Bridging-Header.h */,
+			);
+			path = learnPD;
+			sourceTree = "<group>";
+		};
+		D0DA9A782482550B00F34183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DA9A7F2482550C00F34183 /* libpd-ios.a */,
+				D0DA9A812482550C00F34183 /* libpd-osx.a */,
+				D0DA9A832482550C00F34183 /* libpd-ios-multi.a */,
+				D0DA9A852482550C00F34183 /* libpd-osx-multi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DA9A882482556F00F34183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0DA9A8B2482558F00F34183 /* AudioToolbox.framework */,
+				D0DA9A8A2482558F00F34183 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0DA9A61248254F100F34183 /* learnPD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DA9A74248254F400F34183 /* Build configuration list for PBXNativeTarget "learnPD" */;
+			buildPhases = (
+				D0DA9A5E248254F100F34183 /* Sources */,
+				D0DA9A5F248254F100F34183 /* Frameworks */,
+				D0DA9A60248254F100F34183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0DA9A872482554A00F34183 /* PBXTargetDependency */,
+			);
+			name = learnPD;
+			productName = learnPD;
+			productReference = D0DA9A62248254F100F34183 /* learnPD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DA9A5A248254F100F34183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sergey Zhulkov";
+				TargetAttributes = {
+					D0DA9A61248254F100F34183 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D0DA9A5D248254F100F34183 /* Build configuration list for PBXProject "learnPD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0DA9A59248254F100F34183;
+			productRefGroup = D0DA9A63248254F100F34183 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D0DA9A782482550B00F34183 /* Products */;
+					ProjectRef = D0DA9A772482550B00F34183 /* libpd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D0DA9A61248254F100F34183 /* learnPD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D0DA9A7F2482550C00F34183 /* libpd-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios.a";
+			remoteRef = D0DA9A7E2482550C00F34183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0DA9A812482550C00F34183 /* libpd-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx.a";
+			remoteRef = D0DA9A802482550C00F34183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0DA9A832482550C00F34183 /* libpd-ios-multi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios-multi.a";
+			remoteRef = D0DA9A822482550C00F34183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D0DA9A852482550C00F34183 /* libpd-osx-multi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx-multi.a";
+			remoteRef = D0DA9A842482550C00F34183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DA9A60248254F100F34183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DA9A70248254F400F34183 /* LaunchScreen.storyboard in Resources */,
+				D0DA9A6D248254F400F34183 /* Assets.xcassets in Resources */,
+				D0B99BF424826EBF00EDFE5C /* main.pd in Resources */,
+				D0DA9A6B248254F200F34183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DA9A5E248254F100F34183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DA9A68248254F200F34183 /* ViewController.swift in Sources */,
+				D0B99BF7248271AE00EDFE5C /* PDPatch.m in Sources */,
+				D0DA9A66248254F200F34183 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0DA9A872482554A00F34183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libpd-ios";
+			targetProxy = D0DA9A862482554A00F34183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0DA9A69248254F200F34183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DA9A6A248254F200F34183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0DA9A6E248254F400F34183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DA9A6F248254F400F34183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0DA9A72248254F400F34183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0DA9A73248254F400F34183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0DA9A75248254F400F34183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGH52U4HZ4;
+				INFOPLIST_FILE = learnPD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.learnPD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "learnPD/learnPD-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "../pd-for-ios/**";
+			};
+			name = Debug;
+		};
+		D0DA9A76248254F400F34183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGH52U4HZ4;
+				INFOPLIST_FILE = learnPD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.learnPD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "learnPD/learnPD-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "../pd-for-ios/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DA9A5D248254F100F34183 /* Build configuration list for PBXProject "learnPD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DA9A72248254F400F34183 /* Debug */,
+				D0DA9A73248254F400F34183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DA9A74248254F400F34183 /* Build configuration list for PBXNativeTarget "learnPD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DA9A75248254F400F34183 /* Debug */,
+				D0DA9A76248254F400F34183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0DA9A5A248254F100F34183 /* Project object */;
+}
